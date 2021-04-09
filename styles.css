@@ -20,6 +20,10 @@ div.logo {
     color: #bcc3c7;
 }
 
+div.menu {
+  display: none;
+}
+
 ul.nav-links {
     display: flex;
     margin: 0;
@@ -344,4 +348,49 @@ div.footer h6 {
     color: #88949B;
     font-size: 1rem;
     padding-top: 6rem;
+}
+
+@media screen and (max-width: 768px) {
+  div.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+  }
+
+  ul.nav-links {
+    display: none;
+  }
+
+  div.menu {
+    display: block;
+  }
+
+  div.snapshot-box-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  div.background {
+    background: #fff;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    padding: 15px 40px;
+    width: 550px;
+    height: 220px;
+    position: relative;
+  }
+
+  div.hero-background-pos {
+    display: none;
+  }
+
+  div.gallery-img {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+  }
 }
