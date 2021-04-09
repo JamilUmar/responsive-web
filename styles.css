@@ -350,6 +350,7 @@ div.footer h6 {
     padding-top: 6rem;
 }
 
+/* tablet screen size */
 @media screen and (max-width: 768px) {
   div.nav-bar {
     display: flex;
@@ -381,6 +382,14 @@ div.footer h6 {
     position: relative;
   }
 
+  div.hero-background{
+    padding: 1em;
+  }
+
+  div.hero-section {
+    padding: 1rem;
+  }
+
   div.hero-background-pos {
     display: none;
   }
@@ -393,4 +402,30 @@ div.footer h6 {
     align-items: center;
     padding-top: 3rem;
   }
+
+  .show-menu {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .hide-menu {
+    display: none;
+  }
+}
+
+/* mobile screen size */
+@media screen and (max-width: 360px){
+    div.hero-background {
+      padding: 0;
+    }
+    div.background {
+      padding-top: 0;
+      height: 250px;
+    }
+    div.hero-section {
+      padding: 1rem;
+    }
+    div.footer {
+      padding: 0;
+    }
 }
