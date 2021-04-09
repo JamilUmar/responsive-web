@@ -1,3 +1,5 @@
+// Ss
+
 const img = document.querySelector('img');
 const link = document.querySelector('ul.nav-links');
 
